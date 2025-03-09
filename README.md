@@ -4,7 +4,7 @@
 
 1. [Intro](#intro)
 2. [Scenario](#scenario)
-3. [Security Audit Workflow (Internal)](#workflow)
+3. [Security Audit Workflow](#workflow)
 4. [Controls Assessment](#control-assessment)
 5. [Compliance Checklist](#compliance-checklist)
 6. [Stakeholder Memo](#stakeholder-memo)
@@ -17,7 +17,7 @@ in Google's <a href='https://www.coursera.org/google-certificates/cybersecurity-
    
 The goal is to audit Botium Toys' cybersecurity program to ensure it aligns with industry standards and best practices. The audit will identify vulnerabilities, prioritize "high-risk" issues, and provide suggestions for mitigation. It will also outline a strategic plan to strengthen the organization's security posture. The audit team will document their discoveries, develop remediation plans, implement corrective actions, and keep stakeholders updated throughout the process.
 
-# Scenario
+# Scenario <a name="scenario">
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location. However, its online presence has grown, attracting customers in the U.S. and abroad. Their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
@@ -154,7 +154,7 @@ I discovered that Botium Toys will need to comply with the following standards:
 To learn more about compliance regulations and standards, read the [controls, frameworks, and compliance](https://www.coursera.org/learn/foundations-of-cybersecurity/supplement/xu4pr/controls-frameworks-and-compliance) document. 
    
 
-## Security Audit Workflow (Internal) <a name="stakeholder-memo">
+## Internal Security Audit Workflow <a name="stakeholder-memo">
 
 To: IT Managers, Stakeholders
 
@@ -243,7 +243,7 @@ Additionally, implementing disaster recovery plans and maintaining regular backu
 
 To secure assets physically, implementing locks, CCTV, and a time-controlled safe is highly recommended. Adequate lighting and signage indicating alarm service providers will further strengthen the security posture.
 
-## Conclusion
+## Conclusion <a name="conclusion">
 This wraps up my mock security audit write-up. I hope you found it as insightful and useful as I did. If you have any constructive feedback or suggestions for improvement, feel free to share them.
 
 ### Lessons Learned:
