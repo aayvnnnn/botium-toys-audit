@@ -40,7 +40,7 @@ Framework (NIST CSF).
 
 - Ensure they are fulfilling compliance requirements.
 
-## Security Audit Workflow (Internal) <a name="workflow">
+## Internal Security Audit Workflow <a name="workflow">
 
 The internal security audit can be boiled down into these 4 steps.
 
@@ -154,7 +154,7 @@ I discovered that Botium Toys will need to comply with the following standards:
 To learn more about compliance regulations and standards, read the [controls, frameworks, and compliance](https://www.coursera.org/learn/foundations-of-cybersecurity/supplement/xu4pr/controls-frameworks-and-compliance) document. 
    
 
-## Internal Security Audit Workflow <a name="stakeholder-memo">
+## Stakeholder Memorandum <a name="stakeholder-memo">
 
 To: IT Managers, Stakeholders
 
