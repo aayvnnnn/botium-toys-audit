@@ -10,14 +10,14 @@
 6. [Stakeholder Memo](#stakeholder-memo)
 7. [Conclusion](#conclusion)
 
-# Introduction <a name="intro">
+## Introduction <a name="intro">
 
 An internal security audit performed on Botium Toys, a fictional toy company. Completed as a part of my cybersecurity portfolio and as a part of the <a href='https://www.coursera.org/learn/manage-security-risks?specialization=cybersecurity-certificate'> Play It Safe: Manage Security Risks </a> course 
 in Google's <a href='https://www.coursera.org/google-certificates/cybersecurity-certificate'>Cybersecurity Professional Certificate</a> on <a href='https://www.coursera.org/'>Coursera</a>.
    
 The goal is to audit Botium Toys' cybersecurity program to ensure it aligns with industry standards and best practices. The audit will identify vulnerabilities, prioritize "high-risk" issues, and provide suggestions for mitigation. It will also outline a strategic plan to strengthen the organization's security posture. The audit team will document their discoveries, develop remediation plans, implement corrective actions, and keep stakeholders updated throughout the process.
 
-# Scenario <a name="scenario">
+## Scenario <a name="scenario">
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location. However, its online presence has grown, attracting customers in the U.S. and abroad. Their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
@@ -40,12 +40,14 @@ Framework (NIST CSF).
 
 - Ensure they are fulfilling compliance requirements.
 
-## Internal Security Audit Workflow <a name="workflow">
+### Internal Security Audit Workflow <a name="workflow">
 
 The internal security audit can be boiled down into these 4 steps.
 
 1. Analyze the scope and goals of the audit/risk assessment.
+
 2. Conduct the audit
+
    - Complete controls assessment 
 
      - Select controls required to be implemented.
@@ -60,11 +62,11 @@ The internal security audit can be boiled down into these 4 steps.
 
    - Document findings.
 
-   - Contemplate on how to summarize your recommendations clearly and concisely to stakeholders.
+   - Contemplate how to summarize your recommendations clearly and concisely to stakeholders.
 
 6. Send suggestions and discoveries to stakeholders in a summarized format.
 
-# Assets
+## Assets
 
 Assets managed by the IT Department include:
 
@@ -74,11 +76,9 @@ Assets managed by the IT Department include:
 remote workstations, headsets, cables, keyboards, mice, docking stations,
 surveillance cameras, etc.
 
-- Storefront products available for retail sale on site and online; stored in the
-company’s adjoining warehouse.
+- Storefront products available for retail sale on site and online; stored in the company’s adjoining warehouse.
 
-- Management of systems, software, and services: accounting,
-telecommunication, database, security, e-commerce, and inventory management.
+- Management of systems, software, and services: accounting, telecommunication, database, security, e-commerce, and inventory management.
 
 - Internet access.
 
@@ -94,7 +94,7 @@ telecommunication, database, security, e-commerce, and inventory management.
 
 - Legacy system maintenance: end-of-life systems that require human monitoring.
 
-# Controls Assessment <a name="control-assessment">
+## Controls Assessment <a name="control-assessment">
 
 ### Administrative Controls 
 | Control | Type | State | Priority |
@@ -130,27 +130,28 @@ telecommunication, database, security, e-commerce, and inventory management.
 | Fire detection and prevention (fire alarm, etc.) | Detective/Preventative | Not implemented | Moderate |
 
 
-# Compliance Checklist
+## Compliance Checklist
 
 I discovered that Botium Toys will need to comply with the following standards:
 
-
 -   General Data Protection Regulation (GDPR)
+      
       - GDPR is a European Union (E.U.) regulation that protects the privacy and processing of European citizens' data inside and outside of Europe. GDPR also states that if a breach occurs in which a European citizen's data is compromised, they must be informed within 72 hours of the incident.
-      - Botium Toys is expanding to offer services and handle the data of international customers. GDPR compliance is in scope for handling data and personal information about European customers. 
 
-
-
+      - Botium Toys is expanding to offer services and handle the data of international customers. GDPR compliance is in scope for handling data and personal information about European customers.
+       
 -   Payment Card Industry Data Security Standard (PCI DSS)
+
     - PCI DSS is an international security standard designed to ensure that organizations store, process, accept, and transmit credit card data securily, minimizing the risk of fraud and breaches. 
+
     - Botium Toys must comply with PCI DSS as it processes and stores customer credit card information online and in physical locations. Adhering to PCI DSS is critical, as non-compliance can lead to severe consequences, including monthly fines ranging from $5,000 to $100,000, costly forensic assessments in the event of a data breach, restrictions on payment processing, reputational damage, and potential lawsuits.
 
-
 -   System and Organizations Controls (SOC type 1, SOC type 2):
-    - SOC 1 and SOC 2 are two types of reports that evaluate an organization's internal controls. SOC 1 assesses financial reporting controls, whereas SOC 2 focuses on controls pertaining to the Trust Services Criteria (TSC) that includes security, availability, processing integrity, confidentiality, and privacy. These reports help organizations demonstrate compliance and mitigate risks. Failures in these areas can lead to security breaches, financial fraud, and a weakened security posture.
-    -  Botium Toys must establish and maintain proper user access for internal personnel and third-party vendors to mitigate risk and ensure data integrity.
-      
 
+    - SOC 1 and SOC 2 are two types of reports that evaluate an organization's internal controls. SOC 1 assesses financial reporting controls, whereas SOC 2 focuses on controls pertaining to the Trust Services Criteria (TSC) that includes security, availability, processing integrity, confidentiality, and privacy. These reports help organizations demonstrate compliance and mitigate risks. Failures in these areas can lead to security breaches, financial fraud, and a weakened security posture.
+
+    - Botium Toys must establish and maintain proper user access for internal personnel and third-party vendors to mitigate risk and ensure data integrity.
+      
 To learn more about compliance regulations and standards, read the [controls, frameworks, and compliance](https://www.coursera.org/learn/foundations-of-cybersecurity/supplement/xu4pr/controls-frameworks-and-compliance) document. 
    
 
@@ -170,15 +171,23 @@ Please take a look at the following information on the Botium Toys internal audi
 ### Scope
 
 - The following systems are within scope: 
+
   - Accounting software 
+
   - Endpoint detection solutions
+
   - Firewalls
+
   - intrusion detection systems
+
   - Security Information and Event Management (SIEM) tools. 
 
 - These systems will be assessed for:
+
   - Current user permissions.
+
   - Current implemented controls.
+
   - Current procedures and protocols.
 
 - Ensuring that current user permissions, controls, procedures, protocols, technology, and asset management align with GDPR and PCI DSS compliance requirements while accounting for both hardware and system access.
@@ -187,10 +196,15 @@ Please take a look at the following information on the Botium Toys internal audi
 
 - Comply with the National Institute of Standards and Technology Cybersecurity
 Framework (NIST CSF).
+
 - Initiate a better process for their systems to ensure they are compliant.
+
 - Bolster system controls.
+
 - Implement the concept of least privilege pertaining to user credentials management.
+
 - Establish policies and procedures (which includes their playbooks).
+
 - Ensure they are fulfilling compliance requirements.
 
 ### Critical findings (require immediate consideration)
@@ -246,5 +260,3 @@ To secure assets physically, implementing locks, CCTV, and a time-controlled saf
 ## Conclusion <a name="conclusion">
 This wraps up my mock security audit write-up. I hope you found it as insightful and useful as I did. If you have any constructive feedback or suggestions for improvement, feel free to share them.
 
-### Lessons Learned:
-The main thing I struggled with was incorporating enough detail in my findings for the stakeholder's memorandum. I spent a lot of time making my writing more concise and to the point. I learned to use lists and got my work proofread to avoid repetition and fix grammar mistakes. I also had some trouble at first explaining how System and Organization Controls (SOC) 1 and 2 differ in terms of scope. 
