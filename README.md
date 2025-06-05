@@ -1,4 +1,4 @@
-# Botium Toys (Fictional) Security Audit
+# Botium Toys Security Audit
 
 ## Table of contents
 
